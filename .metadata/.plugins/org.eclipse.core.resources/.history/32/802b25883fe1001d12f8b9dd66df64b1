@@ -1,0 +1,80 @@
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+
+import dev.failsafe.internal.util.Assert;
+public class locator {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		//This code for unable to establish websocket connection
+				ChromeOptions co = new ChromeOptions();
+				co.addArguments("--remote-allow-origins=*");
+				
+				//Webdriver but //co add for the websocket connection error
+				WebDriver driver =new ChromeDriver(co);
+				System.setProperty("webdriver.chrome.driver", "D:\\CHROME DRIVER.exe");
+				
+				//Hit URL
+				
+				driver.get("https://uat-eon.eteam.ou.edu/");
+				//windows maximize
+				driver.manage().window().maximize();
+				
+				//Implicit wait
+				
+				//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+				
+				
+				
+				Thread.sleep(4000);
+				//Click on the login button with the x-path
+				driver.findElement(By.xpath("//a[@class='btn ng-star-inserted'][1]")).click();
+				Thread.sleep(4000);
+				
+				// Back to the previous page
+				
+				driver.navigate().back();
+				
+				//Click on the button with X-PATH selector when multiple element matching
+				
+				driver.findElement(By.xpath("(//span[@class=\"lp-text ng-tns-c197-0 ng-star-inserted\"])[2]")).click();
+				Thread.sleep(2000);
+
+				//Click on the checkbox
+				//driver.findElement(By.xpath("(//*[@class=\"p-checkbox-box\"])[1]")).click();
+				
+				
+				//Fillup form
+				
+				// Fillup with ID
+				
+				driver.findElement(By.id("referral-referral-name")).sendKeys("Atanu Banerjee");
+				driver.findElement(By.id("referral-referral-email")).sendKeys("atanu@sentientgeeks.com");
+				
+				// Fillup with Xpath
+				driver.findElement(By.xpath("(//input[@class='p-inputtext p-component p-element p-inputmask'])[1]")).sendKeys("7003018854");
+				
+				//Handiling Dynamic Dropdown
+				
+				driver.findElement(By.xpath("//*[@class=\"p-dropdown-trigger ng-tns-c277-2\"]")).click();
+				driver.findElement(By.xpath("//*[@class=\"p-dropdown-filter p-inputtext p-component ng-tns-c277-2\"]")).sendKeys("Atoka");
+				Thread.sleep(5000);
+				driver.findElement(By.cssSelector("li[aria-label=\"Atoka\"]")).click();
+				driver .findElement(By.xpath("class=\"p-dropdown-trigger ng-tns-c277-3\"")).click();
+				driver.findElement(By.cssSelector("li[aria-label=\"CREOKS\"]")).click();
+				
+				
+						
+				
+			
+				
+				
+				
+				
+	}
+
+}

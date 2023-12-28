@@ -1,0 +1,18 @@
+import java.util.ArrayList;
+
+public class Array_list {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		ArrayList<String> a = new ArrayList<String>();
+		
+		a.add("Atanu");
+		a.add("Rohan");
+		a.add("Anup");
+		System.out.println(a.get(2));
+				
+
+	}
+
+}

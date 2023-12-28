@@ -1,0 +1,35 @@
+import java.util.ArrayList;
+
+public class Array_list {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		ArrayList<String> name = new ArrayList<String>();
+		
+		name.add("Atanu");
+		name.add("Rohan");
+		name.add("Anup");
+		
+		System.out.println(name.get(2));
+		
+		//Iterating arraylist with 
+		
+		for(int i=0;i<name.size();i++)
+		{
+			System.out.println(name.get(i));
+		}
+		
+		//Item is present in array List
+		
+	System.out.println(name.contains("Rohan"));
+	
+	//Normal Arraylist to convert ArrayList
+	
+	String[] name = {"Atanu","Adith","Sridarshini"};
+	Arrays.
+				
+
+	}
+
+}

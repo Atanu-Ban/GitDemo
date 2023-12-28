@@ -1,0 +1,35 @@
+import java.util.List;
+
+public class Arrays {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	// 1st way Array list	
+		int[] number=new int[5];
+		number[0]=1;
+		number[1]=2;
+		number[2]=3;
+		number[3]=4;
+		number[4]=5;
+		
+		System.out.println(number[2]);
+		
+		//2nd way Array list 
+		int[] number1= {1,2,3,4,5};
+		
+		System.out.println(number1[4]);
+		
+		
+		
+		
+
+	}
+
+	public static List<String> asList(String[] num) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+
+	}
+

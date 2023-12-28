@@ -1,0 +1,50 @@
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+public class locator {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		//This code for unable to establish websocket connection
+				ChromeOptions co = new ChromeOptions();
+				co.addArguments("--remote-allow-origins=*");
+				
+				//Webdriver but //co add for the websocket connection error
+				WebDriver driver =new ChromeDriver(co);
+				System.setProperty("webdriver.chrome.driver", "D:\\CHROME DRIVER.exe");
+				
+				//Hit URL
+				
+				driver.get("https://uat-eon.eteam.ou.edu/");
+				
+				//Implicit wait
+				
+				driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+				
+				
+				
+				Thread.sleep(3000);
+				//Click on the login button with the x-path
+				driver.findElement(By.xpath("//a[@class=\"btn ng-star-inserted\"][1]")).click();
+				Thread.sleep(3000);
+				
+				// Back to the previous page
+				
+				driver.navigate().back();
+				
+				//Click on the button with X-PATH selector when multiple element matching
+				
+				driver.findElement(By.xpath("(//span[@class=\"lp-text ng-tns-c197-0 ng-star-inserted\"])[2]")).click();
+				
+				//Click on the checkbox
+				driver.findElement(By.xpath("(//div[@class='p-checkbox-box'])[1]")).click();
+				
+				
+				
+				
+	}
+
+}

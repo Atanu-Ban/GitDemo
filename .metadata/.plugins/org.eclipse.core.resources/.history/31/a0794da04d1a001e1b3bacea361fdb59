@@ -1,0 +1,11 @@
+package test;
+
+public class day2 {
+
+	public void day2() 
+	{
+		// TODO Auto-generated method stub
+System.out.println("Good");
+	}
+
+}

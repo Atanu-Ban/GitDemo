@@ -1,0 +1,11 @@
+
+public class PS1 extends PS {
+
+	//PS1 try to access all data of the PS
+	
+	public void doThis(){
+		// TODO Auto-generated method stub
+
+	}
+
+}

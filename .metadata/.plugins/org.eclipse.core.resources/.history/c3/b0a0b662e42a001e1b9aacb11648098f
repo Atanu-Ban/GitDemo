@@ -1,0 +1,10 @@
+
+public class PS1 {
+
+	@Test
+	public void Test()  {
+		doThis();
+
+	}
+
+}

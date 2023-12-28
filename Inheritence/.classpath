@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/ROYAL TECH/Downloads/New folder (3)/testng-7.8.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ROYAL TECH/Downloads/New folder (3)/jcommander-1.82.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ROYAL TECH/Downloads/New folder (3)/jquery-3.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ROYAL TECH/Downloads/New folder (3)/slf4j-api-1.7.36.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

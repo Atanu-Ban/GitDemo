@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="11" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-25T15:55:48 IST" name="Loan Department" finished-at="2023-07-25T15:55:49 IST" duration-ms="217">
+    <groups>
+      <group name="smoke">
+        <method signature="day2.day2()[pri:0, instance:test.day2@443118b0]" name="day2" class="test.day2"/>
+        <method signature="day3.mobilelogin()[pri:0, instance:test.day3@7dcf94f8]" name="mobilelogin" class="test.day3"/>
+        <method signature="day3.mobiletestcase()[pri:0, instance:test.day3@7dcf94f8]" name="mobiletestcase" class="test.day3"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2023-07-25T15:55:48 IST" name="Homeloan" finished-at="2023-07-25T15:55:49 IST" duration-ms="116">
+      <class name="test.day4">
+        <test-method signature="Atest()[pri:0, instance:test.day4@3eb25e1a]" started-at="2023-07-25T15:55:48 IST" name="Atest" finished-at="2023-07-25T15:55:48 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Atest -->
+        <test-method signature="Btest()[pri:0, instance:test.day4@3eb25e1a]" started-at="2023-07-25T15:55:48 IST" name="Btest" finished-at="2023-07-25T15:55:49 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Btest -->
+        <test-method signature="Demo(java.lang.String)[pri:0, instance:test.day4@3eb25e1a]" started-at="2023-07-25T15:55:49 IST" name="Demo" finished-at="2023-07-25T15:55:49 IST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'URL' is required by @Test on method Demo but has not been marked @Optional or defined
+in D:\PROJECTS\Testngtutorial\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'URL' is required by @Test on method Demo but has not been marked @Optional or defined
+in D:\PROJECTS\Testngtutorial\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:879)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:728)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:911)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1623)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method signature="secondtestcase()[pri:0, instance:test.day4@3eb25e1a]" started-at="2023-07-25T15:55:49 IST" name="secondtestcase" finished-at="2023-07-25T15:55:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondtestcase -->
+      </class> <!-- test.day4 -->
+      <class name="test.day2">
+        <test-method is-config="true" signature="beforesuite()[pri:0, instance:test.day2@443118b0]" started-at="2023-07-25T15:55:48 IST" name="beforesuite" finished-at="2023-07-25T15:55:48 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+      </class> <!-- test.day2 -->
+      <class name="test.day3">
+        <test-method is-config="true" signature="aftersuite()[pri:0, instance:test.day3@7dcf94f8]" started-at="2023-07-25T15:55:49 IST" name="aftersuite" finished-at="2023-07-25T15:55:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuite -->
+      </class> <!-- test.day3 -->
+    </test> <!-- Homeloan -->
+    <test started-at="2023-07-25T15:55:48 IST" name="Personal Loan" finished-at="2023-07-25T15:55:49 IST" duration-ms="217">
+      <class name="test.day2">
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:test.day2@443118b0]" started-at="2023-07-25T15:55:48 IST" name="beforetest" finished-at="2023-07-25T15:55:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:test.day2@443118b0]" started-at="2023-07-25T15:55:49 IST" name="beforeclass" finished-at="2023-07-25T15:55:49 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="day2()[pri:0, instance:test.day2@443118b0]" started-at="2023-07-25T15:55:49 IST" name="day2" finished-at="2023-07-25T15:55:49 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- day2 -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:test.day2@443118b0]" started-at="2023-07-25T15:55:49 IST" name="afterclass" finished-at="2023-07-25T15:55:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- test.day2 -->
+      <class name="test.day1">
+        <test-method is-config="true" signature="bmethod()[pri:0, instance:test.day1@4802796d]" started-at="2023-07-25T15:55:48 IST" name="bmethod" finished-at="2023-07-25T15:55:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmethod -->
+        <test-method signature="Demo(java.lang.String,java.lang.String)[pri:0, instance:test.day1@4802796d]" started-at="2023-07-25T15:55:48 IST" name="Demo" finished-at="2023-07-25T15:55:48 IST" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.google.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[www.sentientgeeks.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method is-config="true" signature="amethod()[pri:0, instance:test.day1@4802796d]" started-at="2023-07-25T15:55:48 IST" name="amethod" finished-at="2023-07-25T15:55:48 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amethod -->
+        <test-method is-config="true" signature="bmethod()[pri:0, instance:test.day1@4802796d]" started-at="2023-07-25T15:55:49 IST" name="bmethod" finished-at="2023-07-25T15:55:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmethod -->
+        <test-method signature="secondtestcase(java.lang.String,java.lang.String)[pri:0, instance:test.day1@4802796d]" started-at="2023-07-25T15:55:49 IST" name="secondtestcase" data-provider="getData" finished-at="2023-07-25T15:55:49 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstsetpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondtestcase -->
+        <test-method is-config="true" signature="amethod()[pri:0, instance:test.day1@4802796d]" started-at="2023-07-25T15:55:49 IST" name="amethod" finished-at="2023-07-25T15:55:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amethod -->
+        <test-method is-config="true" signature="bmethod()[pri:0, instance:test.day1@4802796d]" started-at="2023-07-25T15:55:49 IST" name="bmethod" finished-at="2023-07-25T15:55:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmethod -->
+        <test-method signature="secondtestcase(java.lang.String,java.lang.String)[pri:0, instance:test.day1@4802796d]" started-at="2023-07-25T15:55:49 IST" name="secondtestcase" data-provider="getData" finished-at="2023-07-25T15:55:49 IST" duration-ms="14" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondsetpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondtestcase -->
+        <test-method is-config="true" signature="amethod()[pri:0, instance:test.day1@4802796d]" started-at="2023-07-25T15:55:49 IST" name="amethod" finished-at="2023-07-25T15:55:49 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amethod -->
+        <test-method is-config="true" signature="bmethod()[pri:0, instance:test.day1@4802796d]" started-at="2023-07-25T15:55:49 IST" name="bmethod" finished-at="2023-07-25T15:55:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmethod -->
+        <test-method signature="secondtestcase(java.lang.String,java.lang.String)[pri:0, instance:test.day1@4802796d]" started-at="2023-07-25T15:55:49 IST" name="secondtestcase" data-provider="getData" finished-at="2023-07-25T15:55:49 IST" duration-ms="84" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdtsetpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondtestcase -->
+        <test-method is-config="true" signature="amethod()[pri:0, instance:test.day1@4802796d]" started-at="2023-07-25T15:55:49 IST" name="amethod" finished-at="2023-07-25T15:55:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amethod -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:test.day1@4802796d]" started-at="2023-07-25T15:55:49 IST" name="aftertest" finished-at="2023-07-25T15:55:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- test.day1 -->
+    </test> <!-- Personal Loan -->
+    <test started-at="2023-07-25T15:55:48 IST" name="Car Loan" finished-at="2023-07-25T15:55:49 IST" duration-ms="114">
+      <class name="test.day3">
+        <test-method signature="mobilelogin()[pri:0, instance:test.day3@7dcf94f8]" started-at="2023-07-25T15:55:48 IST" name="mobilelogin" finished-at="2023-07-25T15:55:48 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobilelogin -->
+        <test-method signature="mobilelogout()[pri:0, instance:test.day3@7dcf94f8]" started-at="2023-07-25T15:55:48 IST" name="mobilelogout" finished-at="2023-07-25T15:55:49 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobilelogout -->
+        <test-method signature="mobiletestcase()[pri:0, instance:test.day3@7dcf94f8]" started-at="2023-07-25T15:55:49 IST" name="mobiletestcase" finished-at="2023-07-25T15:55:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobiletestcase -->
+      </class> <!-- test.day3 -->
+    </test> <!-- Car Loan -->
+  </suite> <!-- Loan Department -->
+</testng-results>

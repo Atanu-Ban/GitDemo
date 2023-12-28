@@ -1,0 +1,23 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+
+public class ID_Locator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.setProperty("Webdriver.edge.driver", "D:\\Edge.exe"); 
+		WebDriver driver = new EdgeDriver();
+		//Hit url
+		driver.get("https://rahulshettyacademy.com/locatorspractice");
+		
+		// Id
+		
+		driver.findElement(By.id("inputUsername")).sendKeys("rahul");
+		
+		//Name
+		
+		driver.findElement(By.name("inputPassword")).sendKeys("");
+	}
+
+}
